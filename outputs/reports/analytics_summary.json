@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-24T06:15:42.528975",
+  "label_distribution": {
+    "caries": 2,
+    "plaque": 1,
+    "calculus": 4,
+    "gingivitis": 1,
+    "missing_tooth": 1,
+    "filling_crown": 1,
+    "ambiguous": 2
+  },
+  "confidence_stats": {
+    "mean_confidence": 0.0,
+    "median_confidence": 0.0,
+    "std_confidence": 0.0,
+    "min_confidence": 0.0,
+    "max_confidence": 0.0,
+    "below_05": 6,
+    "below_07": 6,
+    "above_09": 0
+  },
+  "review_stats": {
+    "REVIEW": 6,
+    "MISSING_LABEL": 2
+  },
+  "plots_generated": [
+    "label_distribution.png",
+    "confidence_distribution.png",
+    "review_pass_distribution.png",
+    "class_errors.png"
+  ]
+}

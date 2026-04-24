@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-04-24T06:15:23.498867",
+  "iou_threshold": 0.6,
+  "total_images": 6,
+  "total_predictions": 6,
+  "pass_count": 0,
+  "review_count": 6,
+  "missing_label_count": 2,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1_score": 0.0,
+  "per_class_stats": {
+    "caries": {
+      "tp": 0,
+      "fp": 6,
+      "fn": 1
+    },
+    "plaque": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1
+    },
+    "calculus": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "gingivitis": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "missing_tooth": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "filling_crown": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "ambiguous": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "annotator_quality": {
+    "A001": {
+      "total_images": 0,
+      "accepted": 1,
+      "rejected": 2,
+      "review_rate": 0.6667
+    },
+    "A002": {
+      "total_images": 1,
+      "accepted": 0,
+      "rejected": 2,
+      "review_rate": 1.0
+    },
+    "A003": {
+      "total_images": 1,
+      "accepted": 0,
+      "rejected": 2,
+      "review_rate": 1.0
+    }
+  }
+}

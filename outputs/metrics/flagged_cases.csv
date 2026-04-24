@@ -1,0 +1,7 @@
+image_name,predicted_class,confidence,x1,y1,x2,y2,status,flag_reason,flag_severity,bbox_area
+dental_0001.jpg,none,0.0,0,0,0,0,no_detection,LOW_CONFIDENCE,MEDIUM,
+dental_0015.jpg,none,0.0,0,0,0,0,no_detection,LOW_CONFIDENCE,MEDIUM,
+dental_0016.jpg,none,0.0,0,0,0,0,no_detection,LOW_CONFIDENCE,MEDIUM,
+dental_0002.jpg,none,0.0,0,0,0,0,no_detection,LOW_CONFIDENCE,MEDIUM,
+dental_0003.jpg,none,0.0,0,0,0,0,no_detection,LOW_CONFIDENCE,MEDIUM,
+dental_0006.jpg,none,0.0,0,0,0,0,no_detection,LOW_CONFIDENCE,MEDIUM,

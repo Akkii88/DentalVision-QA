@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-04-24T06:13:03.703516",
+  "total_images_processed": 33,
+  "valid_images": 33,
+  "broken_images": 0,
+  "empty_labels": 33,
+  "total_bounding_boxes": 0,
+  "class_names": [
+    "caries",
+    "plaque",
+    "calculus",
+    "gingivitis",
+    "missing_tooth",
+    "filling_crown",
+    "ambiguous"
+  ],
+  "splits": {
+    "train": 23,
+    "val": 6,
+    "test": 4
+  },
+  "broken_image_files": [],
+  "empty_label_files": [
+    "dental_0013.jpg",
+    "dental_0000.jpg",
+    "dental_0007.jpg",
+    "dental_0011.jpg",
+    "dental_0003.jpg",
+    "dental_0006.jpg",
+    "dental_0019.jpg",
+    "dental_0010.jpg",
+    "dental_0013.jpg",
+    "dental_0004.jpg"
+  ]
+}

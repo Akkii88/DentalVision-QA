@@ -1,0 +1,48 @@
+[Dashboard Screenshot 1: Project Overview]
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    🦷 DentalVision-QA Dashboard                             ║
+║                         Project Overview                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+[Top Row - Metric Cards]
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│   🖼️ 1,247      │  │   🏷️ 3,891      │  │   📊 7 Classes  │  │   🦷 Ready      │
+│   Total Images  │  │ Total Annotations│  │   Classes       │  │   Status        │
+└─────────────────┘  └─────────────────┘  └─────────────────┘  └─────────────────┘
+
+[Middle Row - Dataset Split Chart]
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Images per Split                                                           │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │  Training: ████████████████████████ 1,053 (85%)                     │   │
+│  │  Validation: ██████████ 156 (12%)                                   │   │
+│  │  Test: ███ 38 (3%)                                                   │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+[Bottom Row - Pipeline Status]
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ML Pipeline Architecture                                                  │
+│                                                                             │
+│  [Data] → [Preprocess] → [Annotate] → [Train] → [Eval] → [Predict] → [QA]  │
+│      ✓          ✓          ✓          ✓         ✓        ✓        ✓        │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+[Description]
+This screenshot shows the Project Overview page of the DentalVision-QA Streamlit 
+dashboard. Key features include:
+
+1. Top metric cards showing dataset statistics
+2. Interactive bar chart of dataset splits  
+3. Pipeline architecture visualization with status indicators
+4. Clean healthcare-themed UI with professional color scheme
+5. Responsive card-based layout with hover effects
+6. Real-time data from the pipeline outputs
+
+The dashboard is built with Streamlit and features:
+- Interactive filtering and sorting
+- Real-time chart updates
+- Image preview functionality
+- Export capabilities
+- Mobile-responsive design

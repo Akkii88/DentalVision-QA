@@ -1,0 +1,28 @@
+<!-- Label Studio Dental Image Annotation Configuration -->
+<!-- For dental finding detection (object detection) -->
+
+<View>
+  <Header value="Dental Image Annotation"/>
+  <Image name="image" value="$image"/>
+  <Header value="Select Dental Findings:"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="caries" background="#FF6B6B"/>
+    <Label value="plaque" background="#4ECDC4"/>
+    <Label value="calculus" background="#45B7D1"/>
+    <Label value="gingivitis" background="#96CEB4"/>
+    <Label value="missing_tooth" background="#FFEAA7"/>
+    <Label value="filling_crown" background="#DDA0DD"/>
+    <Label value="ambiguous" background="#A0A0A0"/>
+  </RectangleLabels>
+  <Header value="Annotation Notes:"/>
+  <Text name="notes" toName="image"/>
+  <Header value="Quality Flags:"/>
+  <Choices name="quality" toName="image">
+    <Choice value="clear"/>
+    <Choice value="blurry"/>
+    <Choice value="occluded"/>
+    <Choice value="needs_review"/>
+  </Choices>
+  <Header value="Confidence Level:"/>
+  <Slider name="confidence" toName="image" min="0" max="100" step="1"/>
+</View>

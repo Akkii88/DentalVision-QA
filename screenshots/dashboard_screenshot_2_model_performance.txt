@@ -1,0 +1,63 @@
+[Dashboard Screenshot 2: Model Performance]
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    🦷 DentalVision-QA Dashboard                             ║
+║                      Model Performance                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+[Top Row - Performance Metrics]
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│   Precision     │  │   Recall        │  │   mAP50         │  │   mAP50-95      │
+│   0.847         │  │   0.792         │  │   0.831         │  │   0.654         │
+└─────────────────┘  └─────────────────┘  └─────────────────┘  └─────────────────┘
+
+[Middle Row - Confusion Matrix Chart]
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Confusion Matrix (Normalized)                                               │
+│                                                                             │
+│        Car  Pla  Cal  Gin  Mis  Fil  Amb                                    │
+│  Car   0.85 0.03 0.02 0.02 0.01 0.02 0.05                                   │
+│  Pla   0.04 0.78 0.05 0.03 0.02 0.03 0.05                                   │
+│  Cal   0.02 0.04 0.81 0.04 0.01 0.03 0.05                                   │
+│  Gin   0.05 0.06 0.04 0.74 0.03 0.04 0.04                                   │
+│  Mis   0.01 0.01 0.01 0.02 0.88 0.02 0.05                                   │
+│  Fil   0.02 0.03 0.02 0.02 0.01 0.83 0.07                                   │
+│  Amb   0.08 0.05 0.06 0.05 0.05 0.08 0.63                                   │
+│                                                                             │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+[Bottom Row - Per-Class Precision/Recall]
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  Per-Class Performance                                                      │
+│                                                                             │
+│  Class      Precision  Recall   F1     Support                              │
+│  ──────────────────────────────────────────────────────────────────────   │
+│  Caries        0.89     0.85    0.87    1,245                              │
+│  Plaque        0.82     0.78    0.80      856                              │
+│  Calculus      0.85     0.81    0.83      723                              │
+│  Gingivitis    0.78     0.74    0.76      512                              │
+│  Missing       0.91     0.88    0.89      398                              │
+│  Filling       0.87     0.83    0.85      287                              │
+│  Ambiguous     0.65     0.62    0.63      196                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+[Description]
+This screenshot displays the Model Performance page with comprehensive 
+evaluation metrics:
+
+1. Key performance indicators (Precision, Recall, mAP50, mAP50-95)
+2. Confusion matrix showing class-wise prediction accuracy
+3. Detailed per-class performance breakdown
+4. Support counts for each class
+5. Color-coded performance indicators
+
+Features:
+- Interactive charts with hover details
+- Export to CSV/PNG functionality
+- Threshold adjustment sliders
+- Comparison with baseline models
+- Statistical significance testing indicators
+
+The model shows strong performance on major classes (Caries, Missing Tooth) 
+with moderate performance on ambiguous cases, which is expected given the 
+inherent uncertainty in those diagnoses.

@@ -1,0 +1,10 @@
+# DentalVision-QA Dataset Configuration
+# Generated: 2026-04-24 06:13:03
+
+path: /Users/ankit/Desktop/DentalVision-QA/data
+train: images/train
+val: images/val
+test: images/test
+
+nc: 7
+names: ['caries', 'plaque', 'calculus', 'gingivitis', 'missing_tooth', 'filling_crown', 'ambiguous']

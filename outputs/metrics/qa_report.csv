@@ -1,0 +1,9 @@
+image,predicted_class,confidence,iou,status
+dental_0001.jpg,caries,0.0,0,REVIEW
+dental_0002.jpg,caries,0.0,0,REVIEW
+dental_0003.jpg,caries,0.0,0,REVIEW
+dental_0006.jpg,caries,0.0,0,REVIEW
+dental_0006.jpg,plaque,0.0,0.0,MISSING_LABEL
+dental_0006.jpg,caries,0.0,0.0,MISSING_LABEL
+dental_0015.jpg,caries,0.0,0,REVIEW
+dental_0016.jpg,caries,0.0,0,REVIEW

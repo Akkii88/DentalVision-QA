@@ -1,0 +1,4 @@
+annotator_id,total_images,accepted,rejected,review_rate
+A001,0,1,2,0.6667
+A002,1,0,2,1.0
+A003,1,0,2,1.0

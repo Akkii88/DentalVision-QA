@@ -1,0 +1,7 @@
+image_name,predicted_class,confidence,x1,y1,x2,y2,status
+dental_0001.jpg,none,0.0,0,0,0,0,no_detection
+dental_0015.jpg,none,0.0,0,0,0,0,no_detection
+dental_0016.jpg,none,0.0,0,0,0,0,no_detection
+dental_0002.jpg,none,0.0,0,0,0,0,no_detection
+dental_0003.jpg,none,0.0,0,0,0,0,no_detection
+dental_0006.jpg,none,0.0,0,0,0,0,no_detection

@@ -1,0 +1,4 @@
+split,num_images,num_objects,num_classes
+train,23,0,0
+val,6,0,0
+test,4,0,0

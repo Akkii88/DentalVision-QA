@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-04-24T06:15:23.789670",
+  "total_predictions": 6,
+  "total_flagged": 6,
+  "flag_rate": 1.0,
+  "confidence_threshold": 0.7,
+  "iou_overlap_threshold": 0.5,
+  "severity_counts": {
+    "MEDIUM": 6
+  },
+  "reason_counts": {
+    "LOW_CONFIDENCE": 6
+  },
+  "flagging_rules": [
+    {
+      "rule": "low_confidence",
+      "threshold": 0.7,
+      "severity": "MEDIUM"
+    },
+    {
+      "rule": "overlapping_predictions",
+      "threshold": 0.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "rule": "ambiguous_class",
+      "severity": "LOW"
+    },
+    {
+      "rule": "large_bounding_box",
+      "threshold": 0.4,
+      "severity": "LOW"
+    },
+    {
+      "rule": "edge_detection",
+      "threshold": 0.05,
+      "severity": "LOW"
+    }
+  ]
+}

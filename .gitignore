@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ML Models & Large Files
+outputs/models/*.pt
+outputs/models/*.pth
+outputs/models/*.onnx
+*.h5
+*.pkl
+
+# Generated Outputs (keep only small samples)
+outputs/predictions/annotated_images/*.jpg
+outputs/reports/*.png
+*.log
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# Temporary files
+tmp/
+temp/
+*.tmp
